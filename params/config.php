@@ -1,2 +1,2 @@
 <?php 
-$baseurl = "http://localhost/static_php/";
+$baseurl = "https://holotiuk.github.io/";

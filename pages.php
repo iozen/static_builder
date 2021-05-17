@@ -35,6 +35,15 @@ $pages = array(
 
 
 	),
+	'Moia_Systema_Zdorovia_Mykola_Amosov' => array(
+		'title' => 'Відео з Youtube.com',	
+		'keys' => '',	
+		'desc' => '',	
+		'file' => 'translitions/Moia_Systema_Zdorovia_Mykola_Amosov.html',	
+		'layout' => 'base'	
+
+
+	),
 //	'audio_books' => array(
 //		'title' => 'Аудіо-книги',	
 //		'keys' => '',	

@@ -1,9 +1,10 @@
+
 <?php 
 include 'params/config.php';
 include 'menu.php';
 include 'pages.php';
 
-shell_exec('rm site/*.html');
+shell_exec('rm -r site/*.html');
 foreach ($pages as $k => $v) {
 $html =  shell_exec('php build_page.php '.$k);
 file_put_contents('site/'.$v['file'], $html);
